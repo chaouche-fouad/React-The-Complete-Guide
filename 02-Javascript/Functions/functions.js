@@ -1,3 +1,4 @@
+import createGreetingExported from "./util.js";
 function createGreeting(name) {
   //   console.log("Hello, " + name + "!");
   return "Hello, " + name + "!";
@@ -5,3 +6,5 @@ function createGreeting(name) {
 
 createGreeting("John");
 console.log(createGreeting("John"));
+
+console.log(createGreetingExported("John"));
